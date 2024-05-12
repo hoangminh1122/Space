@@ -1,0 +1,51 @@
+body {
+  background-image: url(Images/bgrHanHan.png);
+  max-width: 980px;
+  background-repeat: no-repeat;
+  background-position: top center;
+  margin: 0 auto;
+}
+header img {
+  display: block;
+  margin: -1px auto;
+}
+header a {
+  color: aliceblue;
+  font-size: 25px;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 0 20px;
+  border: 2px solid white;
+  background-color: rgb(53, 51, 51);
+  border-radius: 10px;
+}
+header a:hover {
+  background: linear-gradient(to right, #220379, rgb(149, 33, 216), #cf07bf);
+}
+header .thongtin {
+  margin-top: 25px;
+  text-align: center;
+}
+main a img {
+  margin-top: 340px;
+  border: 5px solid white;
+  border-radius: 20px;
+}
+main #mattroi {
+  margin-left: 10px;
+}
+footer {
+  display: inline-flex;
+}
+footer b {
+  color: aliceblue;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 40px;
+  border: 3px solid white;
+  border-radius: 20px;
+  height: 230px;
+  text-align: center;
+  margin-right: 20px;
+  margin-top: 30px;
+  background: linear-gradient(to right, #fa0dd2, #4accff);
+}
